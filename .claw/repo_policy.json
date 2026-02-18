@@ -1,0 +1,11 @@
+{
+  "repo": "Vacaylens/openclaw",
+  "defaultBranch": "main",
+  "automerge": {
+    "enabled": true,
+    "requiresLabel": "automerge",
+    "maxChangedLines": 400,
+    "allowedPathPrefixes": ["docs/","scripts/","tools/",".github/",".claw/"],
+    "blockedPathPrefixes": ["infra/","prod/","terraform/","secrets/"]
+  }
+}
