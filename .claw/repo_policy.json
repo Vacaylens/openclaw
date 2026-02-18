@@ -5,7 +5,7 @@
     "enabled": true,
     "requiresLabel": "automerge",
     "maxChangedLines": 400,
-    "allowedPathPrefixes": ["docs/","scripts/","tools/",".github/",".claw/"],
+    "allowedPathPrefixes": ["docs/","scripts/","tools/",".github/",".claw/","README.md"],
     "blockedPathPrefixes": ["infra/","prod/","terraform/","secrets/"]
   }
 }
