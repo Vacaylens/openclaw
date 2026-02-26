@@ -23,7 +23,12 @@ jobs:
           version: "10"
 
       - name: Install
-        run: pnpm install --frozen-lockfile
+        run: |
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm install --frozen-lockfile
+          else
+            pnpm install
+          fi
 
       - name: Build
         run: pnpm build
